@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "GitHub Markdown Printer",
+  "name": "GitHub Markdown Printer - UConn",
   "version": "0.13",
   "description": "Print GitHub Flavored Markdown exactly as it appears on GitHub, with just two clicks.",
   "homepage_url": "https://github.com/jerry1100/github-markdown-printer",
@@ -24,7 +24,7 @@
   "web_accessible_resources": [
     {
       "resources": ["style.css"],
-      "matches": ["https://*.github.com/*"]
+      "matches": ["https://*.github.com/*", "https://github.uconn.edu/*"]
     }
   ]
 }
